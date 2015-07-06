@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dashboard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.seguetech.zippy.activities.DashboardActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/light_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:elevation="0dp"
+        android:id="@+id/toolbar"
+        tools:ignore="UnusedAttribute">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/main_logo"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/footer"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:weightSum="3">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/dark_blue"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/search_button"
+                android:onClick="onClick">
+
+                <ImageView
+                    android:src="@drawable/search_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/search_image"
+                    />
+                <com.seguetech.zippy.ui.TypeManagedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/search_image"
+                    android:layout_toEndOf="@+id/search_image"
+                    app:typeface="robotoslab"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="2dp"
+            >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_blue"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/cabinet_button"
+                android:onClick="onClick">
+
+                <ImageView
+                    android:src="@drawable/cabinet_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/cabinet_image"
+                    />
+                <com.seguetech.zippy.ui.TypeManagedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medicine_cabinets"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/cabinet_image"
+                    android:layout_toEndOf="@+id/cabinet_image"
+                    app:typeface="robotoslab"/>
+            </RelativeLayout>
+        </FrameLayout>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="2dp"
+            >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_blue"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/news_button"
+                android:onClick="onClick">
+
+                <ImageView
+                    android:src="@drawable/news_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/news_image"
+                    />
+                <com.seguetech.zippy.ui.TypeManagedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/news"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:duplicateParentState="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/news_image"
+                    android:layout_toEndOf="@+id/news_image"
+                    app:typeface="robotoslab"/>
+            </RelativeLayout>
+        </FrameLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+    <com.seguetech.zippy.ui.TypeManagedTextView
+        android:id="@+id/footer"
+        app:typeface="robotoslab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:text="@string/drug_information_checker"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        />
+</RelativeLayout>

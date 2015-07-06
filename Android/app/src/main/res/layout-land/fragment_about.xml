@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.seguetech.zippy.fragments.AboutFragment">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:src="@drawable/about_logo"
+        android:paddingBottom="2dp"
+        android:background="@color/light_blue"
+        />
+
+
+    <ScrollView
+        android:layout_toRightOf="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:fillViewport="true"
+        >
+
+
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <com.seguetech.zippy.ui.TypeManagedTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/dark_blue"
+              app:typeface="robotoslab"
+              android:textStyle="bold"
+              android:id="@+id/title"
+              android:textAppearance="@android:style/TextAppearance.Medium"
+              android:text="@string/about_meducated"
+              />
+
+          <View
+              android:layout_marginTop="4dp"
+              android:layout_marginBottom="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="2dp"
+              android:background="@color/light_blue"
+              android:layout_below="@+id/title"
+              android:id="@+id/title_hr"/>
+
+          <com.seguetech.zippy.ui.TypeManagedTextView
+              app:typeface="sourcesanspro"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/about_meducated_info1"
+              android:layout_below="@+id/title_hr"
+              android:id="@+id/info1"
+              android:textSize="12sp"
+              />
+
+          <com.seguetech.zippy.ui.TypeManagedTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/about_meducated_info2"
+              android:layout_below="@+id/info1"
+              android:id="@+id/info2"
+              android:layout_marginTop="16dp"
+              android:textSize="12sp"
+              />
+
+          <com.seguetech.zippy.ui.TypeManagedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:typeface="sourcesanspro"
+        android:textSize="10sp"
+        android:text="@string/nlm_attribution"
+              android:layout_below="@+id/info2"
+              android:layout_marginTop="24dp"
+
+              tools:ignore="SmallSp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

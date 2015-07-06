@@ -1,0 +1,34 @@
+﻿<div id="login-dialog" class="collapse">
+    <div>
+        To access your medicine cabinet, you must first log in.
+        For purposes of this prototype, login is a non-identifying
+        unique number ("User ID") with no password.
+    </div>
+    <label>Enter your User ID.  If you do not have a User ID, leave this field blank.</label>
+    <input type="number" id="user-id" min="0" />
+    <div id="user-id-val" class="field-validation-error collapse">User ID not found</div>
+</div>
+
+<div id="cabinet-dialog" class="collapse">
+    Select a cabinet to add <span class="medication-name"></span> to:
+    <div id="cabinet-selector">
+    </div>
+    <div class="cabinet row new-cabinet">
+        <div>
+            <img src="/Content/Images/green-plus-icon.png" alt="New Cabinet">
+        </div>
+        <div>Create a New Cabinet</div>
+    </div>
+</div>
+
+<div id="cabinet-name-dialog" class="collapse">
+    Enter the name of your new medicine cabinet.
+    <input type="text" id="cabinet-name" />
+</div>
+
+<div id="pill-image-dialog" class="collapse">
+    <img alt="Pill Image" />
+    <div class="mt-sm">
+        Note: Pill images come from a 3rd party database and may not reflect the exact pill image for your manufacturer or dosage.
+    </div>
+</div>

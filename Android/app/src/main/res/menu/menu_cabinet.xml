@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.seguetech.zippy.activities.CabinetActivity">
+    <item android:id="@+id/edit_cabinet" android:title="@string/edit"
+        android:orderInCategory="100" app:showAsAction="ifRoom" android:icon="@drawable/ic_action_mode_edit"/>
+    <item android:id="@+id/delete_cabinet" android:title="@string/delete"
+        android:orderInCategory="101" app:showAsAction="ifRoom" android:icon="@drawable/ic_action_delete"/>
+</menu>

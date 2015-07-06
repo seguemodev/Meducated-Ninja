@@ -1,0 +1,16 @@
+﻿@import "_settings.scss";
+@import "_mixins.scss";
+
+#about-page {
+	.header {
+		h1 {
+	        padding: 1em 0.5em 0.5em 0.5em;
+	    }
+        img {
+            width: 100%;
+            max-width: 266px;
+            max-height: 266px;
+        }
+    }
+		
+}

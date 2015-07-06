@@ -1,0 +1,42 @@
+﻿@mixin font-face($family, $url, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $family;
+        font-style: $style;
+        font-weight: $weight;
+        src: url(($url + '.eot?#iefix')) format("embedded-opentype"), 
+            url(($url + '.woff2')) format("woff2"), 
+            url(($url + '.woff')) format("woff"), 
+            url(($url + '.ttf')) format("truetype"), 
+            url(($url + '.svg#robotoslab')) format("svg"); 
+    }
+}
+
+@include font-face(robotoslab, '../fonts/robotoslab/robotoslab-regular-webfont');
+@include font-face(robotoslab, '../fonts/robotoslab/robotoslab-bold-webfont', bold);
+@include font-face(sourcesanspro, '../fonts/sourcesanspro/sourcesanspro-regular-webfont');
+@include font-face(sourcesanspro, '../fonts/sourcesanspro/sourcesanspro-bold-webfont', bold);
+@include font-face(sourcesanspro, '../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont', bold, italic);
+
+$white: #FFFFFF;
+$black: #0D0D0D;
+$gray-dark: #939597;
+$gray-light: #E6E7E8;
+$blue: #2F3B75;
+$green: #7ECDC9;
+$error: #b94a48;
+$link: #479E95;
+$link-hover: #58585B;
+$link-active: $link-hover;
+$green-shadow: #469E95;
+
+$robotos: 'robotoslab', Helvetica, Arial, sans-serif;
+
+$mobile: new-breakpoint(max-width 600px 4);
+
+$navbarOffset: 20px;
+$navbarHeight: 100px;
+$navbarCollapseHeight: 60px;
+
+$navbarCollapseWidth: 768px;
+$navbarCollapseWidthMax: ($navbarCollapseWidth - 1);
+

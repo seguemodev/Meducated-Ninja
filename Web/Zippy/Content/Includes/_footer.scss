@@ -1,0 +1,11 @@
+@import "_settings.scss";
+
+footer {
+	background-color: $green;
+	padding: 25px;
+	font-family: robotoslab;
+	color: $white;
+	a {
+		color: $white;
+	}
+}

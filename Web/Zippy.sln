@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zippy", "Zippy\Zippy.csproj", "{8A1696F9-262F-46C1-9EE3-1DA88169A463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zippy.Tests", "Zippy.Tests\Zippy.Tests.csproj", "{BCD74782-4959-4073-BBC8-2FC54E81C569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Deployment", "Azure Deployment", "{E93527A7-6C84-45CC-A3EE-05BDC5D71DB2}"
+	ProjectSection(SolutionItems) = preProject
+		.deployment = .deployment
+		ZippyDeploy.bat = ZippyDeploy.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zippy.Database", "Zippy.Database\Zippy.Database.csproj", "{9B81540B-45DE-4F06-95A0-07C5E3909B63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A1696F9-262F-46C1-9EE3-1DA88169A463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1696F9-262F-46C1-9EE3-1DA88169A463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1696F9-262F-46C1-9EE3-1DA88169A463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1696F9-262F-46C1-9EE3-1DA88169A463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD74782-4959-4073-BBC8-2FC54E81C569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD74782-4959-4073-BBC8-2FC54E81C569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD74782-4959-4073-BBC8-2FC54E81C569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD74782-4959-4073-BBC8-2FC54E81C569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B81540B-45DE-4F06-95A0-07C5E3909B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B81540B-45DE-4F06-95A0-07C5E3909B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B81540B-45DE-4F06-95A0-07C5E3909B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B81540B-45DE-4F06-95A0-07C5E3909B63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

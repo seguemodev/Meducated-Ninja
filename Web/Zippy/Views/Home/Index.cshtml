@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Meducated Ninja";
+}
+<div class="tab-content">
+    <section id="search-page" class="tab-pane active">
+        @Html.Partial("_SearchPage")
+    </section>
+    <section id="cabinet-page" class="tab-pane">
+        @Html.Partial("_CabinetPage")
+    </section>
+    <section id="medication-page" class="tab-pane">
+        @Html.Partial("_MedicationPage")
+    </section>
+    <section id="about-page" class="tab-pane">
+        @Html.Partial("_AboutPage")
+    </section>
+</div>
+
+@Html.Partial("_Dialogs")

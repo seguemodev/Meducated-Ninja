@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">meducated.ninja</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="fda_server" translatable="false">https://api.fda.gov</string>
+    <string name="rximage_server" translatable="false">https://rximage.nlm.nih.gov</string>
+    <string name="term_server" translatable="false">https://staging.meducated.ninja</string>
+    <string name="press_release_feed" translatable="false">http://www.fda.gov/AboutFDA/ContactFDA/StayInformed/RSSFeeds/PressReleases/rss.xml</string>
+    <string name="new_drugs_feed" translatable="false">http://www.fda.gov/AboutFDA/ContactFDA/StayInformed/RSSFeeds/Drugs/rss.xml</string>
+
+    <string name="network_unavailable">Network Unavailable. Please connect to a network and try again.</string>
+    <string name="search_error">Sorry, but your search had an error. Please try again.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Medicine Search</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search Brand Name, Generic Name, or NDC number.</string>
+    <string name="title_activity_cabinets">Medicine Cabinets</string>
+    <string name="medicine_cabinets">Medicine Cabinets</string>
+    <string name="add_cabinet">Add Cabinet</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="cabinet_name_hint">Cabinet Name</string>
+    <string name="title_activity_cabinet">CabinetActivity</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="title_activity_medicine">MedicineActivity</string>
+    <string name="select_cabinet">Select Cabinet</string>
+    <string name="select_cabinet_description">Select a cabinet to save this to, or enter a new cabinet name below.</string>
+    <string name="already_in_cabinet">\'%1$s\' is already in cabinet \'%2$s\'!</string>
+    <string name="saved_medicine">\'%1$s\' has been saved to cabinet \'%2$s\'.</string>
+    <string name="save_medicine_failed">Could not save \'%1$s\' to cabinet \'%2$s\'. An error has occurred.</string>
+    <string name="deleted_medicine">\'%1$s\' has been deleted from cabinet \'%2$s\'.</string>
+    <string name="delete_medicine_failed">Could not delete \'%1$s\' from cabinet \'%2$s\'. An error has occurred.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please Wait …</string>
+    <string name="created_cabinet">Cabinet \'%1$s\' has been created.</string>
+    <string name="sort">Sort</string>
+    <string name="sort_settings">Sort Settings</string>
+    <string name="about">About</string>
+    <string name="too_many_results">Displaying partial results. Found %1$s matches.</string>
+    <string name="title_activity_about">About</string>
+    <string name="dose">Dose</string>
+    <string name="side_effects">Side Effects</string>
+    <string name="interactions">Interactions</string>
+    <string name="get_meducated">Get meducated on over the counter meds and prescriptions you and your family are taking!</string>
+    <string name="confirm_delete_title">Remove Medication?</string>
+    <string name="confirm_delete_message">Are you sure you want to remove this medication from the \'%1$s\' cabinet?</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="drug_information_checker">Drug Information Checker</string>
+    <string name="powered_by_segue">Powered by Segue Technologies, Inc.</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="news">News</string>
+    <string name="nlm_attribution">Images supplied by the National Library of Medicine (NLM) Office of High Performance Computing and Communications (OHPCC) have been supported by the American Recovery and Reinvestment Act of 2009 (ARRA) and through NIH intramural funding approved by the NLM Board of Scientific Counselors.</string>
+    <string name="about_meducated">About Meducated</string>
+    <string name="about_meducated_info1">Sample Only. Meducated provides valuable health information, tools for managing your health, and support to those who seek information. You can trust that our content is timely and credible.</string>
+    <string name="about_meducated_info2">Meducated offers credible and in-depth medical news, features, reference material, and online community programs. We are proud that others in the fields of media and health have recognized our efforts over the years.</string>
+    <string name="sort_direction">Sort Direction</string>
+    <string name="a_to_z">A-Z</string>
+    <string name="z_to_a">Z-A</string>
+    <string name="sort_by">Sort By</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="generic_name">Generic Name</string>
+
+</resources>

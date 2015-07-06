@@ -1,0 +1,55 @@
+@import "Bourbon/_bourbon.scss";
+@import "Includes/_settings.scss";
+@import "Includes/_typography.scss";
+@import "Includes/_layout.scss";
+@import "Includes/_header.scss";
+@import "Includes/_footer.scss";
+@import "Includes/_search.scss";
+@import "Includes/_medicine.scss";
+@import "Includes/_about.scss";
+@import "Includes/_cabinet.scss";
+
+@media (min-width: $navbarCollapseWidth) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+
+body {
+    font-family: 'sourcesanspro';
+    color: $black;
+    text-align: center;
+    background: $white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: 100%;
+
+    .tab-content {
+        background-color: $gray-light;
+    }
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+// .fine-print {
+//     .em-b {
+//         text-transform: uppercase;
+//     }
+//     font-size: 11px;
+//     @extend .mt-md;
+//     @extend .mb-md;
+//     width: 80%
+// }
+
+

@@ -1,0 +1,187 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.seguetech.zippy.fragments.MedicineFragment">
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            >
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_blue"
+                app:typeface="robotoslab"
+                android:textStyle="bold"
+                android:id="@+id/title"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                tools:text="Tylenol Extra Strength"
+                />
+
+            <View
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@+id/imagecontainer"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"
+                android:background="@color/light_blue">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_width="300dp"
+                android:layout_height="262dp" />
+
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/dots"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    app:radius="4dp"
+                    android:padding="4dp"
+                    app:fillColor="@color/dark_blue"
+                    app:pageColor="@color/other_light_blue"
+                    app:strokeColor="@android:color/transparent"
+                    app:strokeWidth="0dp"/>
+            </LinearLayout>
+            <!--
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:id="@+id/medimage"
+                tools:src="@mipmap/ic_launcher"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:scaleType="centerInside"
+                />
+                -->
+
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:textAppearance="@android:style/TextAppearance.Small"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:id="@+id/dose_header"
+                android:text="@string/dose"
+                />
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:id="@+id/dose_info"
+                tools:text="Lorem ipsum dolor set ahmet."
+                android:textSize="12sp"
+                />
+
+            <View
+                android:id="@+id/side_effects_hr"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue"/>
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:textAppearance="@android:style/TextAppearance.Small"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:id="@+id/side_effects_header"
+                android:text="@string/side_effects"
+                />
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:id="@+id/side_effects_info"
+                tools:text="Lorem ipsum dolor set ahmet."
+                android:textSize="12sp"
+                />
+
+            <View
+                android:id="@+id/interactions_hr"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_blue"/>
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:textAppearance="@android:style/TextAppearance.Small"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:id="@+id/interactions_header"
+                android:text="@string/interactions"
+                />
+
+            <com.seguetech.zippy.ui.TypeManagedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:typeface="sourcesanspro"
+                android:id="@+id/interactions_info"
+                tools:text="Lorem ipsum dolor set ahmet."
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/medicine_add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_add"
+        android:layout_gravity="bottom|end"
+        app:elevation="6dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:pressedTranslationZ="12dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

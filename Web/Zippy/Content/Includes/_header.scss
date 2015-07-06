@@ -1,0 +1,203 @@
+﻿@import "_settings.scss";
+@import "_mixins.scss";
+
+$lastNavWidth: 10em;
+$SecondNavWidth: 10em;
+
+
+body {
+    padding-top: $navbarHeight;
+    @media (max-width: $navbarCollapseWidthMax) {
+        padding-top: $navbarCollapseHeight;
+    }
+}
+
+nav {
+    background-color: $white !important;
+    border: none !important;
+    .container {
+        height: $navbarHeight;
+        @media (max-width: $navbarCollapseWidthMax) {
+            height: auto;
+            padding: 0px;
+        }
+        .header-logo {
+            padding-top: 25px;
+            
+            @media (max-width: $navbarCollapseWidthMax) {
+                position: absolute;
+                top: 5px;
+                left: 10px;
+                padding-top: 0px;
+                padding-left: 0px;
+            }
+            .logo-link {
+                img {
+                    @media (max-width: $navbarCollapseWidthMax) {
+                        max-height: 50px;
+                    }
+                }
+            }
+        }
+        .navbar-header {
+
+            button {
+                border: none;
+                // margin-right: 10px;
+                background-color: $white !important;
+                &:focus {
+                    outline: none;
+                }
+                img {
+                    height: 25px;
+                }
+            }
+        }
+        #zippy-navbar {
+            @media (min-width: $navbarCollapseWidth) {
+                padding-top: 25px;
+                width: (800%/12) !important;
+                padding-left: 0;
+            }
+            @media (max-width: $navbarCollapseWidthMax) {
+                padding: 0px;
+                margin: 0px;
+                    background-color: $blue !important;
+            }
+            ul {
+                float: right;
+                margin-top: 10px;
+                @media (max-width: $navbarCollapseWidthMax) {
+                    float: none;
+                    margin-top: 0;
+                    background-color: $blue !important;
+                        margin-right: 15px;
+                        margin-left: 15px;
+
+                    li {
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        border-bottom: 2px solid $white;
+                        font-family: $robotos;
+                        font-weight: bold;
+                        color: $white !important;
+                        a {
+                            font-family: $robotos;
+                            font-weight: bold;
+                            color: $white !important;
+                            background-color: $blue !important;
+
+                            &:hover {
+                                   color: $link-hover !important;
+                                   background-color: $blue !important;
+                            }
+
+                            &:active, &:focus {
+                                   color: $link-active !important;
+                                   background-color: $blue !important;
+                            }
+
+                            &:visited {
+                                   background-color: $blue !important;
+                            }
+                        }
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                        &.active {
+                            a {
+                                color: $green !important;
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $navbarCollapseWidth) {
+                    li {
+                        a {
+                            font-family: $robotos;
+                            font-weight: bold;
+                            color: $blue !important;
+                            background-color: $white !important;
+
+                            &:hover {
+                                   color: $link-hover !important;
+                                   background-color: $white !important;
+                            }
+
+                            &:active, &:focus {
+                                   color: $link-active !important;
+                                   background-color: $white !important;
+                            }
+
+                            &:visited {
+                                   background-color: $white !important;
+                            }
+                        }
+                        &:last-child {
+                            // position: absolute;
+                            // top: -10px;
+                            // right: 100px;
+                            .login-control {
+                                #logged-out {
+                                    position: absolute;
+                                    top: -20px;
+                                    right: 20px;
+                                    height: 1.5em;
+                                    width: 5em;
+                                    border-radius: 1.5em;
+                                    background-color: $green;
+                                    text-align: center;
+                                    a {
+                                        background-color: transparent !important;
+                                        color: $white !important;
+                                    }
+                                }
+                                #logged-in {
+                                    position: absolute;
+                                    top: -20px;
+                                    right: 20px;
+                                    height: 1.5em;
+                                    width: 18em;
+                                    text-align: right;
+                                    a {
+                                        height: 1.5em;
+                                        border-radius: 1.5em;
+                                        background-color: $green !important;
+                                        // background-color: transparent !important;
+                                        color: $white !important;
+                                        padding-left: 1em;
+                                        padding-right: 1em;
+
+                                    }
+                                }
+                            }
+                        }
+                        &.active {
+                            a {
+                                color: $green !important;
+                            }
+                        }
+                    }
+                }
+            }
+            // .login-control {
+            //     @media (min-width: $navbarCollapseWidth) {
+            //         position: absolute;
+            //         top:20px;
+            //         z-index: 2;
+            //         width: 100%;
+            //         text-align: right;
+            //         padding-right: 30px;
+            //     }
+            //     @media (max-width: $navbarCollapseWidthMax) {
+            //         margin-top: 10px;
+            //         #logged-in > a {
+            //             display: block;
+            //             margin-left: 0;
+            //         }
+            //     }
+            // }
+        }
+    }
+}
+

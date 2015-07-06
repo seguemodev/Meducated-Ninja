@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source=localhost;Initial Catalog=Zippy;Integrated Security=True;Persist Security Info=True;pooling=true;max pool size=10;" providerName="System.Data.SqlClient" />
+</connectionStrings>

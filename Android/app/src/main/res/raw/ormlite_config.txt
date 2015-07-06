@@ -1,0 +1,31 @@
+# --table-start--
+dataClass=com.seguetech.zippy.data.model.rss.Item
+tableName=news
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=link
+# --field-end--
+# --field-start--
+fieldName=pubDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=dateline
+# --field-end--
+# --field-start--
+fieldName=image
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

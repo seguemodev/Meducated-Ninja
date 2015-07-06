@@ -1,0 +1,199 @@
+@import "_settings.scss";
+@import "_mixins.scss";
+
+#cabinet-page {
+	.cabinet-header {
+		h1 {
+	        padding: 1em 0.5em 0.5em 0.5em;
+	    }
+	}
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	background-color: $gray-light;
+	.cabinet-new-button-wrapper {
+		background-color: $white;
+		// padding: 50px;
+		margin-left: 0;
+		margin-right: 0;
+		height: 80px;
+        text-align: center;
+        margin-bottom: 2em;
+        @media (max-width: $navbarCollapseWidthMax) {
+            padding: 10px 0 20px 0;
+            height: auto;
+        }
+		button {
+			padding-top: 40px;
+  			padding-right: 65px;
+			background-color: transparent;
+			color: $blue;
+			font-family: $robotos;
+			font-weight: bold;
+			line-height: 40px;
+			img {
+				height: 40px;
+				padding-right: 10px;
+			}
+	        &:focus {
+	            outline: none;
+	        }
+	        @media (max-width: $navbarCollapseWidthMax) {
+	            float: none;
+	            margin-left: auto;
+	            margin-right: auto;
+	            display: block;
+	            padding-right: 12px;
+	        }
+		}
+	}
+	.cabinet-list {
+		padding: 0 50px 50px 50px;
+		// padding-top: 0;
+		background-color: $white;
+		margin-left: 0;
+		margin-right: 0;
+        text-align: left;
+        @media (max-width: $navbarCollapseWidthMax) {
+            padding-top: 10px;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+
+        @media (max-width: $navbarCollapseWidthMax) {
+            #cabinet-contents {
+                display: none;
+            }
+            .show-medication {
+                display: none;
+            }
+            #cabinet-contents.show-medication {
+                display: block;
+                #close-cabinet {
+                    display: block;
+                }
+            }
+
+        }
+
+        #close-cabinet {
+            display: none;
+        }
+
+		$cabinet-height: 80px;
+		.cabinet-name {
+			display: inline-block;
+			color: $blue;
+			font-family: $robotos;
+			font-weight: bold;
+			line-height: $cabinet-height;
+		}
+		#cabinets {
+			.cabinet {
+                cursor: pointer;
+				border-bottom: 2px solid $green;
+				padding-bottom: 10px;
+				padding-top: 10px;
+                margin-right: 0;
+                height: 106px;
+				.cabinet-image-wrapper {
+					display: inline-block;
+					padding-right: 20px;
+					img {
+						max-height: $cabinet-height;
+					}
+				}
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
+		#cabinet-contents {
+            .cabinet-name {
+                height: 80px;
+                text-align: center;
+                font-size: 2em;
+                margin: 0.5em 0;
+                width: 100%;
+            }
+			.medication {
+				&:first-child {
+		            @media (max-width: $navbarCollapseWidthMax) {
+		            	padding-top: 20px;
+						border-top: 2px solid $green;
+					}
+				}
+                padding: 20px 0 5px 0;
+                border-bottom: 2px solid #7ECDC9;
+                margin-right: 0;
+                height: 106px;
+  				div {
+            		@media (max-width: $navbarCollapseWidthMax) {
+            			padding-left: 0;
+            			padding-right: 0;
+            		}
+				}
+				.medication-name {
+					padding-bottom: 10px;
+				}
+				.remove-medication {
+                    font-family: $robotos;
+                    font-weight: bold;
+                    height: 1.5em;
+                    border-radius: 1.5em;
+                    background-color: $green !important;
+                    color: $white !important;
+                    padding-left: 1em;
+                    padding-right: 1em;
+                    float: right;
+				}
+                img {
+                    max-height: 60px;
+                }
+			}
+		}
+	}
+
+}
+
+#cabinet-dialog {
+	#cabinet-selector {
+		padding-top: 15px;
+		> div {  
+			text-align: left;
+  			padding-left: 25px;
+			padding-bottom: 15px;
+			.cabinet-image-wrapper {
+				display: inline-block;
+				img {
+					height: 80px;
+				}
+			}
+			.cabinet-name {
+				padding-left: 15px;
+				display: inline-block;
+			}
+		}
+	}
+	.new-cabinet {
+		text-align: left;
+		> div {
+			line-height: 80px;
+			img {
+				height: 80px;
+			}
+			&:first-child {
+				padding-left: 25px;
+				padding-right: 0;
+				width: auto;
+				display: inline-block;
+			}
+			&:last-child {
+				width: auto;
+				padding-left: 15px;
+				display: inline-block;
+			}
+		}
+	}
+}
+

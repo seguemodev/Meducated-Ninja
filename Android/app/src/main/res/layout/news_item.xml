@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.seguetech.zippy.ui.NewsItemView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:elevation="2dp"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@android:color/white"
+    android:layout_marginBottom="2dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:background="?android:attr/selectableItemBackground"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        >
+
+    <com.seguetech.zippy.ui.TypeManagedTextView
+		android:id="@+id/news_headline"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/dark"
+        android:textAppearance="@android:style/TextAppearance.Small"
+		app:typeface="sourcesanspro"
+		tools:text="Title Goes Here"
+		/>
+
+	<RelativeLayout
+		android:id="@+id/news_content"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/news_headline">
+
+		<ImageView
+			android:id="@+id/news_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:contentDescription="@string/news"
+			android:importantForAccessibility="no"
+			tools:src="@mipmap/ic_launcher"
+			tools:ignore="UnusedAttribute"/>
+
+
+		<com.seguetech.zippy.ui.TypeManagedTextView
+			android:id="@+id/news_description"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/dark"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+			android:textSize="10sp"
+			app:typeface="sourcesanspro"
+			android:layout_toRightOf="@+id/news_image"
+            android:layout_toEndOf="@+id/news_image"
+			tools:text="Bacon ipsum dolor sit amet ham hock doner short loin, short ribs landjaeger shankle hamburger spare ribs boudin turducken venison jowl strip steak sirloin. Kielbasa jowl drumstick jerky. Doner ham pork loin, prosciutto kevin salami chicken bresaola bacon beef ribs sausage turducken rump. Bacon t-bone cow tail strip steak shank hamburger flank. Andouille shoulder rump short loin, venison spare ribs meatball cow pork bresaola leberkas hamburger flank short ribs prosciutto. Ham beef ribs bacon pig shankle, pork belly jerky frankfurter kevin turducken porchetta short ribs."
+            tools:ignore="SmallSp" />
+
+
+	</RelativeLayout>
+
+	<com.seguetech.zippy.ui.TypeManagedTextView
+		android:id="@+id/news_dateline"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/news_content"
+		android:layout_marginBottom="4dp"
+		android:layout_marginTop="4dp"
+		android:textColor="@color/dark"
+		android:textSize="10sp"
+		app:typeface="sourcesanspro"
+		tools:ignore="SmallSp"/>
+    </RelativeLayout>
+    </FrameLayout>
+</com.seguetech.zippy.ui.NewsItemView>

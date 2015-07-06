@@ -1,0 +1,125 @@
+@import "_settings.scss";
+@import "_mixins.scss";
+
+
+#medication-page {
+
+    border-top: 145px solid $green;
+    @media (max-width: $navbarCollapseWidthMax) {
+        border-top: 40px solid $green;
+    }
+    #medication-details {
+        @include content-max-width;
+        background-color: $white;
+
+        .row {
+            text-align: left;
+        }
+
+        #medication-back {
+            font-family: sourcesanspro;
+            font-weight: bold;
+            color: $blue;
+            font-size: larger;
+        }
+
+        #brand-name {
+            font-family: $robotos;
+            font-weight: bold;
+            color: $blue;
+            font-size: 2em;
+        }
+
+        #save-to-cabinet {
+            $save-to-cabinet-size: 2.5em;
+            font-family: robotoslab;
+            font-weight: bold;
+            // font-size: larger;
+            height: $save-to-cabinet-size;
+            border-radius: $save-to-cabinet-size;
+            border: none;
+            background-color: $blue;
+            padding-left: $save-to-cabinet-size;
+            padding-right: $save-to-cabinet-size;
+
+            @media (max-width: 460px) {
+                font-size: 75%;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        #medication-tabs {
+            background-color: $gray-light;
+            border: none;
+            li {
+                a {
+                    font-family: robotoslab;
+                    font-weight: bold;
+                    color: $blue;
+                    padding: 20px;
+                }
+            }
+
+            .active {
+                background-color: $blue;
+                a {
+                    background-color: $blue;
+                    color: $white;
+                    border: none;
+                }
+            }
+        }
+
+        #medication-tab-content {
+            background-color: $white;
+            border: 2px solid $gray-light;
+            border-top: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 25px;
+            padding-bottom: 50px;
+        }
+
+        #medication-tabs-accordion {
+            .panel {
+                border: none;
+                .panel-heading {
+                    padding-top: 0px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+
+                    background-color: $gray-light;
+                    $plus_minus_image_size: 50px;
+
+                    a, a:hover, a:active, a:visited, a:focus {
+                        display: block;
+                        color: $blue !important;
+                        background: url(/Content/Images/minus.png) right center no-repeat;
+                        background-size: $plus_minus_image_size $plus_minus_image_size;
+                        height: $plus_minus_image_size;
+                        width: 100%;
+                        line-height: $plus_minus_image_size;
+                        padding-right: $plus_minus_image_size;
+                    }
+                    a.collapsed {
+                        display: block;
+                        color: $blue !important;
+                        background: url(/Content/Images/plus.png) right center no-repeat;
+                        background-size: $plus_minus_image_size $plus_minus_image_size;
+                        height: $plus_minus_image_size;
+                        width: 100%;
+                        line-height: $plus_minus_image_size;
+                        padding-right: $plus_minus_image_size;
+                    }
+                }
+                .panel-body {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+}

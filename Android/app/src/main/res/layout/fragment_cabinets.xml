@@ -1,0 +1,32 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seguetech.zippy.fragments.CabinetsFragment"
+    android:paddingTop="2dp"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cabinets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CabinetsActivity" />
+
+    <android.support.design.widget.FloatingActionButton
+        app:borderWidth="0dp"
+        android:id="@+id/cabinets_add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_add"
+        android:layout_gravity="bottom|end"
+        app:elevation="6dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+
+        app:pressedTranslationZ="12dp"/>
+
+</FrameLayout>

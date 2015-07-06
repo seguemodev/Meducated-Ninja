@@ -1,0 +1,460 @@
+﻿@import "../Bourbon/_bourbon.scss";
+@import "_settings.scss";
+@import "_mixins.scss";
+
+$xlg: 6em;
+$lg: 3em;
+$md: 2em;
+$sm: 1.25em;
+$xs: 0.75em;
+
+
+/* Padding */
+.p-xlg {
+    padding: $xlg;
+}
+
+.pt-xlg {
+    padding-top: $xlg;
+}
+
+.pr-xlg {
+    padding-right: $xlg;
+}
+
+.pb-xlg {
+    padding-bottom: $xlg;
+}
+
+.pl-xlg {
+    padding-left: $xlg;
+}
+
+.p-lg {
+    padding: $lg;
+}
+
+.pt-lg {
+    padding-top: $lg;
+}
+
+.pr-lg {
+    padding-right: $lg;
+}
+
+.pb-lg {
+    padding-bottom: $lg;
+}
+
+.pl-lg {
+    padding-left: $lg;
+}
+
+.p-md {
+    padding: $md;
+}
+
+.pt-md {
+    padding-top: $md;
+}
+
+.pr-md {
+    padding-right: $md;
+}
+
+.pb-md {
+    padding-bottom: $md;
+}
+
+.pl-md {
+    padding-left: $md;
+}
+
+.p-sm {
+    padding: $sm;
+}
+
+.pt-sm {
+    padding-top: $sm;
+}
+
+.pr-sm {
+    padding-right: $sm;
+}
+
+.pb-sm {
+    padding-bottom: $sm;
+}
+
+.pl-sm {
+    padding-left: $sm;
+}
+
+.p-xs {
+    padding: $xs;
+}
+
+.pt-xs {
+    padding-top: $xs;
+}
+
+.pr-xs {
+    padding-right: $xs;
+}
+
+.pb-xs {
+    padding-bottom: $xs;
+}
+
+.pl-xs {
+    padding-left: $xs;
+}
+
+/* Margin */
+
+.m-xlg {
+    margin: $xlg;
+}
+
+.mt-xlg {
+    margin-top: $xlg;
+}
+
+.mr-xlg {
+    margin-right: $xlg;
+}
+
+.mb-xlg {
+    margin-bottom: $xlg;
+}
+
+.ml-xlg {
+    margin-left: $xlg;
+}
+
+
+.m-lg {
+    margin: $lg;
+}
+
+.mt-lg {
+    margin-top: $lg;
+}
+
+.mr-lg {
+    margin-right: $lg;
+}
+
+.mb-lg {
+    margin-bottom: $lg;
+}
+
+.ml-lg {
+    margin-left: $lg;
+}
+
+.m-md {
+    margin: $md;
+}
+
+.mt-md {
+    margin-top: $md;
+}
+
+.mr-md {
+    margin-right: $md;
+}
+
+.mb-md {
+    margin-bottom: $md;
+}
+
+.ml-md {
+    margin-left: $md;
+}
+
+.m-sm {
+    margin: $sm;
+}
+
+.mt-sm {
+    margin-top: $sm;
+}
+
+.mr-sm {
+    margin-right: $sm;
+}
+
+.mb-sm {
+    margin-bottom: $sm;
+}
+
+.ml-sm {
+    margin-left: $sm;
+}
+
+.m-xs {
+    margin: $xs;
+}
+
+.mt-xs {
+    margin-top: $xs;
+}
+
+.mr-xs {
+    margin-right: $xs;
+}
+
+.mb-xs {
+    margin-bottom: $xs;
+}
+
+.ml-xs {
+    margin-left: $xs;
+}
+
+.empty {
+    min-height:5px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+
+$xlg: 3em;
+$lg: 3em;
+$md: 2em;
+$sm: 1.25em;
+$xs: 0.75em;
+
+
+/* Padding */
+.p-xlg {
+    padding: $xlg;
+}
+
+.pt-xlg {
+    padding-top: $xlg;
+}
+
+.pr-xlg {
+    padding-right: $xlg;
+}
+
+.pb-xlg {
+    padding-bottom: $xlg;
+}
+
+.pl-xlg {
+    padding-left: $xlg;
+}
+
+.p-lg {
+    padding: $lg;
+}
+
+.pt-lg {
+    padding-top: $lg;
+}
+
+.pr-lg {
+    padding-right: $lg;
+}
+
+.pb-lg {
+    padding-bottom: $lg;
+}
+
+.pl-lg {
+    padding-left: $lg;
+}
+
+.p-md {
+    padding: $md;
+}
+
+.pt-md {
+    padding-top: $md;
+}
+
+.pr-md {
+    padding-right: $md;
+}
+
+.pb-md {
+    padding-bottom: $md;
+}
+
+.pl-md {
+    padding-left: $md;
+}
+
+.p-sm {
+    padding: $sm;
+}
+
+.pt-sm {
+    padding-top: $sm;
+}
+
+.pr-sm {
+    padding-right: $sm;
+}
+
+.pb-sm {
+    padding-bottom: $sm;
+}
+
+.pl-sm {
+    padding-left: $sm;
+}
+
+.p-xs {
+    padding: $xs;
+}
+
+.pt-xs {
+    padding-top: $xs;
+}
+
+.pr-xs {
+    padding-right: $xs;
+}
+
+.pb-xs {
+    padding-bottom: $xs;
+}
+
+.pl-xs {
+    padding-left: $xs;
+}
+
+/* Margin */
+
+.m-xlg {
+    margin: $xlg;
+}
+
+.mt-xlg {
+    margin-top: $xlg;
+}
+
+.mr-xlg {
+    margin-right: $xlg;
+}
+
+.mb-xlg {
+    margin-bottom: $xlg;
+}
+
+.ml-xlg {
+    margin-left: $xlg;
+}
+
+
+.m-lg {
+    margin: $lg;
+}
+
+.mt-lg {
+    margin-top: $lg;
+}
+
+.mr-lg {
+    margin-right: $lg;
+}
+
+.mb-lg {
+    margin-bottom: $lg;
+}
+
+.ml-lg {
+    margin-left: $lg;
+}
+
+.m-md {
+    margin: $md;
+}
+
+.mt-md {
+    margin-top: $md;
+}
+
+.mr-md {
+    margin-right: $md;
+}
+
+.mb-md {
+    margin-bottom: $md;
+}
+
+.ml-md {
+    margin-left: $md;
+}
+
+.m-sm {
+    margin: $sm;
+}
+
+.mt-sm {
+    margin-top: $sm;
+}
+
+.mr-sm {
+    margin-right: $sm;
+}
+
+.mb-sm {
+    margin-bottom: $sm;
+}
+
+.ml-sm {
+    margin-left: $sm;
+}
+
+.m-xs {
+    margin: $xs;
+}
+
+.mt-xs {
+    margin-top: $xs;
+}
+
+.mr-xs {
+    margin-right: $xs;
+}
+
+.mb-xs {
+    margin-bottom: $xs;
+}
+
+.ml-xs {
+    margin-left: $xs;
+}
+
+    .logo-nocap {
+        max-width: 175px;
+    }
+    .underline {
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    legend button.btn-xs {
+        margin-top: 5px;
+    }
+}
+
+.header {
+    color: $white;
+    background: $green;
+    width: 100%;
+
+    h1 {
+        // padding: 0.5em 0;
+    }
+}
+.content-body {
+    @include content-max-width;
+    background-color: $white;
+
+}

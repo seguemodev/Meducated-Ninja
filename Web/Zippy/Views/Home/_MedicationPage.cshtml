@@ -1,0 +1,32 @@
+﻿<a data-toggle="tab" id="medication-tab" href="#medication-page" class="hidden"></a>
+<div id="medication-details">
+    <div class="row">
+        <a id="medication-back" href="#search-page" data-toggle="tab">&lt; Back to <span id="back-text">Search Results</span></a>
+    </div>
+    <div class="row mt-md">
+        <div class="col-md-2">
+            <img id="pill-image" alt="Pill Image" data-toggle="modal" data-target="#pill-image-dialog-modal" />
+        </div>
+        <div class="col-md-6">
+            <div id="brand-name"></div>
+            <div id="manufacturer-name"></div>
+        </div>
+        <div class="col-md-4 save-medication">
+            <button id="save-to-cabinet" class="btn btn-primary login-required">Save to My Medicine Cabinet</button>
+        </div>
+    </div>
+    <div class="row mt-md">
+        <ul id="medication-tabs" class="nav nav-tabs">
+            <li id="information-tab" class="active"><a href="#information" data-toggle="tab">Patient Information</a></li>
+            <li id="uses-tab"><a href="#uses" data-toggle="tab">Uses</a></li>
+            <li id="side-effects-tab"><a href="#side-effects" data-toggle="tab">Side Effects</a></li>
+            <li id="precautions-tab"><a href="#precautions" data-toggle="tab">Precautions</a></li>
+            <li id="interactions-tab"><a href="#interactions" data-toggle="tab">Interactions</a></li>
+            <li id="overdose-tab"><a href="#overdose" data-toggle="tab">Overdose</a></li>
+            <li id="pharmacokinetics-tab"><a href="#pharmacokinetics" data-toggle="tab">Pharmacokinetics</a></li>
+        </ul>
+
+        <div id="medication-tab-content" class="tab-content">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#zippy-navbar">
+                    <img src="/Content/Images/hamburger.png" />
+                </button>
+            </div>
+            <div class="header-logo col-sm-4">
+                <a href="./" class="logo-link">
+                    <img class="" src='./Content/Images/zippy-logo.png' alt="Meducated Ninja">
+                </a>
+            </div>
+            <div id="zippy-navbar" class="collapse navbar-collapse col-xs-12 col-sm-8">
+                <ul class="nav navbar-nav">
+                    <li><a data-toggle="tab" href="#search-page">Search Meds</a></li>
+                    <li><a data-toggle="tab" href="#cabinet-page" class="login-required">My Medicine Cabinet</a></li>
+                    <li><a data-toggle="tab" href="#about-page">About Meducated</a></li>
+                    <li>
+                <div class="login-control">
+                    <div id="logged-out">
+                        <a href="#" id="login">Login</a>
+                    </div>
+                    <div id="logged-in" class="collapse">
+                        <span>Logged in as User ID <span id="current-user-id"></span></span>
+                        <a href="#" id="logout" class="ml-sm">Logout</a>
+                    </div>
+                </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer>
+        Brought to you by <a href="http://www.seguetech.com">Segue Technologies, Inc.</a>
+    </footer>
+
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        $(function () {
+            $.Zippy("@Url.Content("~/Content")", "@Url.HttpRouteUrl("DefaultApi", new { controller = "_API_" })", "@System.Configuration.ConfigurationManager.AppSettings["fda_api_key"]");
+        });
+    </script>
+</body>
+</html>

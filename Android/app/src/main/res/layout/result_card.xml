@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:elevation="2dp"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@android:color/white"
+    tools:ignore="UnusedAttribute">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:background="?android:attr/selectableItemBackground"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        >
+
+
+        <com.seguetech.zippy.ui.TypeManagedTextView
+            app:typeface="sourcesanspro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/brand_name"
+            android:textColor="@color/dark"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            tools:text="Synthroid"/>
+        <com.seguetech.zippy.ui.TypeManagedTextView
+            app:typeface="sourcesanspro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/generic_name"
+            tools:text="LEVOTHYROIXINE SODIUM"
+            android:textSize="10sp"
+            android:layout_below="@+id/brand_name"
+            tools:ignore="SmallSp" />
+        <!--
+        <com.seguetech.zippy.ui.TypeManagedTextView
+            app:typeface="sourcesanspro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer"
+            tools:text="Abbie Vie, Inc."
+            android:textSize="12sp"
+            android:layout_margin="4dp"
+            android:layout_below="@+id/generic_name"
+            />
+        <com.seguetech.zippy.ui.TypeManagedTextView
+            app:typeface="sourcesanspro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ndcs"
+            tools:text="NDCs: 00074-4847"
+            android:textSize="12sp"
+            android:layout_margin="4dp"
+            android:layout_below="@+id/manufacturer"
+            android:gravity="right"
+            />
+            -->
+
+    </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

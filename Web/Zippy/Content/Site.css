@@ -1,0 +1,1368 @@
+﻿@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input, select {
+  max-width: 280px; }
+
+.modal-dialog input, .modal-dialog select {
+  max-width: 100%; }
+
+textarea {
+  width: 100%; }
+
+/* !TYPOGRAPHY */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  font-size: 16px;
+  color: #0D0D0D;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  background: #FFFFFF; }
+
+a {
+  text-decoration: none;
+  color: #7ECDC9; }
+  a:hover, a:active, a.active {
+    color: #58585B;
+    text-decoration: none; }
+
+hr {
+  border: 1px solid #E6E7E8; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin: 0;
+  font-family: 'robotoslab', Helvetica, Arial, sans-serif; }
+
+h1, .h1, h2, .h2 {
+  font-weight: normal; }
+
+h3, .h3, h4, .h4 {
+  font-weight: bold; }
+
+h1, .h1 {
+  font-size: 54px;
+  line-height: 1.2; }
+
+h2, .h2 {
+  font-size: 30px;
+  line-height: 1.3; }
+
+h3, .h3 {
+  font-size: 30px;
+  line-height: 1.5; }
+
+h4, .h4 {
+  font-size: 19px;
+  line-height: 1.3;
+  color: #2F3B75; }
+
+h5, .h5 {
+  font-size: 15px;
+  line-height: 1.3; }
+
+h6, .h6 {
+  font-size: 12px;
+  line-height: 2.4; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5625;
+  margin: 8px 0; }
+
+ul, ol {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 1.5em;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1.5em; }
+  ul ul, ul ol, ol ul, ol ol {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+li.title {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'robotoslab', Helvetica, Arial, sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; }
+
+.image img {
+  padding: 0;
+  margin: 0; }
+
+label {
+  margin-bottom: 6px; }
+
+label.muted {
+  font-weight: normal; }
+
+input[type="submit"] {
+  padding: 12px 24px; }
+
+input[type="text"], input[type="tel"], input[type="date"], input[type="datetime"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], select {
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  min-height: 35px; }
+
+/* Sectional selector dropdown */
+.hs-selector-div {
+  display: inline-block;
+  float: right;
+  border: 2px solid;
+  width: 15em; }
+
+.hs-selector-div select {
+  border: none;
+  width: 14.5em; }
+
+.hs-selector-div:after {
+  content: "\2228";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: bold;
+  padding: 0 8px;
+  background: #8cc540;
+  color: white;
+  pointer-events: none; }
+
+/*
+    Re-Factor Later
+*/
+.v-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none; }
+
+.v-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+legend {
+  color: #7ECDC9; }
+
+ul.side-nav {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+  ul.side-nav ul {
+    list-style-type: none;
+    padding-left: 10px; }
+
+.form-horizontal .radio-options {
+  padding-top: 7px; }
+  .form-horizontal .radio-options span.radio-option:first-child {
+    padding-left: 0px; }
+
+span.radio-option {
+  padding-left: 15px;
+  padding-bottom: 25px; }
+
+.breadcrumb > li + li.no-divider:before {
+  content: none; }
+
+.form-control.inline {
+  display: inline-block; }
+
+.form-control.autosize {
+  width: auto;
+  margin-right: 10px; }
+
+.field-validation-error {
+  color: #b94a48; }
+
+.required-field-indicator {
+  color: #b94a48;
+  padding-right: 5px; }
+
+.em-i {
+  font-style: italic; }
+
+.em-b, .em-bu {
+  font-weight: bold; }
+
+.em-u, .em-bu {
+  text-decoration: underline; }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1.1; }
+
+  h2 {
+    font-size: 25px; }
+
+  h3 {
+    line-height: 1.2; }
+ }
+
+@media (min-width: 768px) {
+  input.tall-label {
+    margin-top: 12px; }
+ }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+/* Padding */
+.p-xlg {
+  padding: 6em; }
+
+.pt-xlg {
+  padding-top: 6em; }
+
+.pr-xlg {
+  padding-right: 6em; }
+
+.pb-xlg {
+  padding-bottom: 6em; }
+
+.pl-xlg {
+  padding-left: 6em; }
+
+.p-lg {
+  padding: 3em; }
+
+.pt-lg {
+  padding-top: 3em; }
+
+.pr-lg {
+  padding-right: 3em; }
+
+.pb-lg {
+  padding-bottom: 3em; }
+
+.pl-lg {
+  padding-left: 3em; }
+
+.p-md {
+  padding: 2em; }
+
+.pt-md {
+  padding-top: 2em; }
+
+.pr-md {
+  padding-right: 2em; }
+
+.pb-md {
+  padding-bottom: 2em; }
+
+.pl-md {
+  padding-left: 2em; }
+
+.p-sm {
+  padding: 1.25em; }
+
+.pt-sm {
+  padding-top: 1.25em; }
+
+.pr-sm {
+  padding-right: 1.25em; }
+
+.pb-sm {
+  padding-bottom: 1.25em; }
+
+.pl-sm {
+  padding-left: 1.25em; }
+
+.p-xs {
+  padding: 0.75em; }
+
+.pt-xs {
+  padding-top: 0.75em; }
+
+.pr-xs {
+  padding-right: 0.75em; }
+
+.pb-xs {
+  padding-bottom: 0.75em; }
+
+.pl-xs {
+  padding-left: 0.75em; }
+
+/* Margin */
+.m-xlg {
+  margin: 6em; }
+
+.mt-xlg {
+  margin-top: 6em; }
+
+.mr-xlg {
+  margin-right: 6em; }
+
+.mb-xlg {
+  margin-bottom: 6em; }
+
+.ml-xlg {
+  margin-left: 6em; }
+
+.m-lg {
+  margin: 3em; }
+
+.mt-lg {
+  margin-top: 3em; }
+
+.mr-lg {
+  margin-right: 3em; }
+
+.mb-lg {
+  margin-bottom: 3em; }
+
+.ml-lg {
+  margin-left: 3em; }
+
+.m-md {
+  margin: 2em; }
+
+.mt-md {
+  margin-top: 2em; }
+
+.mr-md {
+  margin-right: 2em; }
+
+.mb-md {
+  margin-bottom: 2em; }
+
+.ml-md {
+  margin-left: 2em; }
+
+.m-sm {
+  margin: 1.25em; }
+
+.mt-sm {
+  margin-top: 1.25em; }
+
+.mr-sm {
+  margin-right: 1.25em; }
+
+.mb-sm {
+  margin-bottom: 1.25em; }
+
+.ml-sm {
+  margin-left: 1.25em; }
+
+.m-xs {
+  margin: 0.75em; }
+
+.mt-xs {
+  margin-top: 0.75em; }
+
+.mr-xs {
+  margin-right: 0.75em; }
+
+.mb-xs {
+  margin-bottom: 0.75em; }
+
+.ml-xs {
+  margin-left: 0.75em; }
+
+.empty {
+  min-height: 5px;
+  margin: 0; }
+
+@media (max-width: 767px) {
+  /* Padding */
+  .p-xlg {
+    padding: 3em; }
+
+  .pt-xlg {
+    padding-top: 3em; }
+
+  .pr-xlg {
+    padding-right: 3em; }
+
+  .pb-xlg {
+    padding-bottom: 3em; }
+
+  .pl-xlg {
+    padding-left: 3em; }
+
+  .p-lg {
+    padding: 3em; }
+
+  .pt-lg {
+    padding-top: 3em; }
+
+  .pr-lg {
+    padding-right: 3em; }
+
+  .pb-lg {
+    padding-bottom: 3em; }
+
+  .pl-lg {
+    padding-left: 3em; }
+
+  .p-md {
+    padding: 2em; }
+
+  .pt-md {
+    padding-top: 2em; }
+
+  .pr-md {
+    padding-right: 2em; }
+
+  .pb-md {
+    padding-bottom: 2em; }
+
+  .pl-md {
+    padding-left: 2em; }
+
+  .p-sm {
+    padding: 1.25em; }
+
+  .pt-sm {
+    padding-top: 1.25em; }
+
+  .pr-sm {
+    padding-right: 1.25em; }
+
+  .pb-sm {
+    padding-bottom: 1.25em; }
+
+  .pl-sm {
+    padding-left: 1.25em; }
+
+  .p-xs {
+    padding: 0.75em; }
+
+  .pt-xs {
+    padding-top: 0.75em; }
+
+  .pr-xs {
+    padding-right: 0.75em; }
+
+  .pb-xs {
+    padding-bottom: 0.75em; }
+
+  .pl-xs {
+    padding-left: 0.75em; }
+
+  /* Margin */
+  .m-xlg {
+    margin: 3em; }
+
+  .mt-xlg {
+    margin-top: 3em; }
+
+  .mr-xlg {
+    margin-right: 3em; }
+
+  .mb-xlg {
+    margin-bottom: 3em; }
+
+  .ml-xlg {
+    margin-left: 3em; }
+
+  .m-lg {
+    margin: 3em; }
+
+  .mt-lg {
+    margin-top: 3em; }
+
+  .mr-lg {
+    margin-right: 3em; }
+
+  .mb-lg {
+    margin-bottom: 3em; }
+
+  .ml-lg {
+    margin-left: 3em; }
+
+  .m-md {
+    margin: 2em; }
+
+  .mt-md {
+    margin-top: 2em; }
+
+  .mr-md {
+    margin-right: 2em; }
+
+  .mb-md {
+    margin-bottom: 2em; }
+
+  .ml-md {
+    margin-left: 2em; }
+
+  .m-sm {
+    margin: 1.25em; }
+
+  .mt-sm {
+    margin-top: 1.25em; }
+
+  .mr-sm {
+    margin-right: 1.25em; }
+
+  .mb-sm {
+    margin-bottom: 1.25em; }
+
+  .ml-sm {
+    margin-left: 1.25em; }
+
+  .m-xs {
+    margin: 0.75em; }
+
+  .mt-xs {
+    margin-top: 0.75em; }
+
+  .mr-xs {
+    margin-right: 0.75em; }
+
+  .mb-xs {
+    margin-bottom: 0.75em; }
+
+  .ml-xs {
+    margin-left: 0.75em; }
+
+  .logo-nocap {
+    max-width: 175px; }
+
+  .underline {
+    border: 0;
+    padding-bottom: 0; }
+
+  legend button.btn-xs {
+    margin-top: 5px; }
+ }
+
+.header {
+  color: #FFFFFF;
+  background: #7ECDC9;
+  width: 100%; }
+
+.content-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding: 50px;
+  background-color: #FFFFFF; }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+body {
+  padding-top: 100px; }
+  @media (max-width: 767px) {
+    body {
+      padding-top: 60px; } }
+
+nav {
+  background-color: #FFFFFF !important;
+  border: none !important; }
+  nav .container {
+    height: 100px; }
+    @media (max-width: 767px) {
+      nav .container {
+        height: auto;
+        padding: 0px; } }
+    nav .container .header-logo {
+      padding-top: 25px; }
+      @media (max-width: 767px) {
+        nav .container .header-logo {
+          position: absolute;
+          top: 5px;
+          left: 10px;
+          padding-top: 0px;
+          padding-left: 0px; } }
+      @media (max-width: 767px) {
+        nav .container .header-logo .logo-link img {
+          max-height: 50px; } }
+    nav .container .navbar-header button {
+      border: none;
+      background-color: #FFFFFF !important; }
+      nav .container .navbar-header button:focus {
+        outline: none; }
+      nav .container .navbar-header button img {
+        height: 25px; }
+    @media (min-width: 768px) {
+      nav .container #zippy-navbar {
+        padding-top: 25px;
+        width: 66.66667% !important;
+        padding-left: 0; } }
+    @media (max-width: 767px) {
+      nav .container #zippy-navbar {
+        padding: 0px;
+        margin: 0px;
+        background-color: #2F3B75 !important; } }
+    nav .container #zippy-navbar ul {
+      float: right;
+      margin-top: 10px; }
+      @media (max-width: 767px) {
+        nav .container #zippy-navbar ul {
+          float: none;
+          margin-top: 0;
+          background-color: #2F3B75 !important;
+          margin-right: 15px;
+          margin-left: 15px; }
+          nav .container #zippy-navbar ul li {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #FFFFFF;
+            font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            color: #FFFFFF !important; }
+            nav .container #zippy-navbar ul li a {
+              font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+              font-weight: bold;
+              color: #FFFFFF !important;
+              background-color: #2F3B75 !important; }
+              nav .container #zippy-navbar ul li a:hover {
+                color: #58585B !important;
+                background-color: #2F3B75 !important; }
+              nav .container #zippy-navbar ul li a:active, nav .container #zippy-navbar ul li a:focus {
+                color: #58585B !important;
+                background-color: #2F3B75 !important; }
+              nav .container #zippy-navbar ul li a:visited {
+                background-color: #2F3B75 !important; }
+            nav .container #zippy-navbar ul li:last-child {
+              border-bottom: none; }
+            nav .container #zippy-navbar ul li.active a {
+              color: #7ECDC9 !important; } }
+      @media (min-width: 768px) {
+        nav .container #zippy-navbar ul li a {
+          font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+          font-weight: bold;
+          color: #2F3B75 !important;
+          background-color: #FFFFFF !important; }
+          nav .container #zippy-navbar ul li a:hover {
+            color: #58585B !important;
+            background-color: #FFFFFF !important; }
+          nav .container #zippy-navbar ul li a:active, nav .container #zippy-navbar ul li a:focus {
+            color: #58585B !important;
+            background-color: #FFFFFF !important; }
+          nav .container #zippy-navbar ul li a:visited {
+            background-color: #FFFFFF !important; }
+        nav .container #zippy-navbar ul li:last-child .login-control #logged-out {
+          position: absolute;
+          top: -20px;
+          right: 20px;
+          height: 1.5em;
+          width: 5em;
+          border-radius: 1.5em;
+          background-color: #7ECDC9;
+          text-align: center; }
+          nav .container #zippy-navbar ul li:last-child .login-control #logged-out a {
+            background-color: transparent !important;
+            color: #FFFFFF !important; }
+        nav .container #zippy-navbar ul li:last-child .login-control #logged-in {
+          position: absolute;
+          top: -20px;
+          right: 20px;
+          height: 1.5em;
+          width: 18em;
+          text-align: right; }
+          nav .container #zippy-navbar ul li:last-child .login-control #logged-in a {
+            height: 1.5em;
+            border-radius: 1.5em;
+            background-color: #7ECDC9 !important;
+            color: #FFFFFF !important;
+            padding-left: 1em;
+            padding-right: 1em; }
+        nav .container #zippy-navbar ul li.active a {
+          color: #7ECDC9 !important; }
+ }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+footer {
+  background-color: #7ECDC9;
+  padding: 25px;
+  font-family: robotoslab;
+  color: #FFFFFF; }
+  footer a {
+    color: #FFFFFF; }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+.search-header h1 {
+  padding: 1em 0 0 0; }
+.search-header .row {
+  margin-left: 0px;
+  margin-right: 0px; }
+.search-header .search-input-block {
+  width: 75%;
+  max-width: 800px;
+  height: 4em;
+  background: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4em;
+  box-shadow: 0px 2px #469E95;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+  @media (max-width: 767px) {
+    .search-header .search-input-block {
+      width: 85%;
+      height: 2em;
+      border-radius: 2em;
+      margin-bottom: 1em;
+      margin-top: 1em; } }
+  .search-header .search-input-block .twitter-typeahead {
+    width: -webkit-calc(100% - 8em);
+    width: calc(100% - 8em);
+    height: 100%; }
+    @media (max-width: 767px) {
+      .search-header .search-input-block .twitter-typeahead {
+        width: -webkit-calc(100% - 4em);
+        width: calc(100% - 4em); } }
+    .search-header .search-input-block .twitter-typeahead .search-term {
+      border: 0;
+      width: 100%;
+      padding-left: 2em;
+      max-width: none;
+      height: 100%;
+      position: relative;
+      background-color: transparent !important; }
+      .search-header .search-input-block .twitter-typeahead .search-term::-webkit-input-placeholder::after {
+        content: 'Brand Name, Generic Name, or NDC Number'; }
+        @media (max-width: 768px) {
+          .search-header .search-input-block .twitter-typeahead .search-term::-webkit-input-placeholder::after {
+            content: ''; } }
+      @media (max-width: 767px) {
+        .search-header .search-input-block .twitter-typeahead .search-term {
+          padding-left: 1em; } }
+      .search-header .search-input-block .twitter-typeahead .search-term:focus {
+        outline: none; }
+    .search-header .search-input-block .twitter-typeahead .tt-dataset-term {
+      color: #0D0D0D; }
+    .search-header .search-input-block .twitter-typeahead input.tt-hint {
+      color: #939597; }
+    .search-header .search-input-block .twitter-typeahead .tt-dropdown-menu {
+      left: 30px !important;
+      border-top: none;
+      border-color: #469E95; }
+  .search-header .search-input-block button#search-btn {
+    width: 8em;
+    height: 100%;
+    float: right;
+    border-radius: 4em;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF; }
+    @media (max-width: 767px) {
+      .search-header .search-input-block button#search-btn {
+        width: 4em; } }
+    .search-header .search-input-block button#search-btn:focus {
+      outline: none; }
+    .search-header .search-input-block button#search-btn img {
+      height: 50%; }
+.search-header .search-midbanner-logo {
+  max-height: 8em; }
+  .search-header .search-midbanner-logo img {
+    max-height: 8em; }
+
+#search-page #search-initial .fine-print {
+  padding-bottom: 25px; }
+#search-page #search-initial #learn-more-btn {
+  font-family: robotoslab;
+  font-weight: bold;
+  font-size: larger;
+  height: 2.5em;
+  border-radius: 2.5em;
+  border: none;
+  background-color: #2F3B75;
+  padding-left: 2.5em;
+  padding-right: 2.5em; }
+  @media (max-width: 460px) {
+    #search-page #search-initial #learn-more-btn {
+      font-size: 75%; } }
+  #search-page #search-initial #learn-more-btn:focus {
+    outline: none; }
+
+#search-results {
+  text-align: left; }
+  #search-results .row > div:first-child {
+    padding-left: 0px;
+    color: #7ECDC9;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #search-results #result-selector {
+    max-width: 100%;
+    text-align: left; }
+    #search-results #result-selector select {
+      max-width: 100%; }
+    #search-results #result-selector .row {
+      border-top: 2px solid #7ECDC9;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      #search-results #result-selector .row a {
+        color: #0D0D0D; }
+        #search-results #result-selector .row a:hover {
+          color: #58585B; }
+
+/* Autocomplete */
+.tt-dropdown-menu {
+  background: #FFFFFF;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid #939597;
+  padding: 0 8px;
+  cursor: pointer; }
+
+/* Loading Indicator */
+.ajax-loading {
+  display: none;
+  padding: 15px; }
+
+.ajax-spinner {
+  background-image: url(images/ajax-loader.gif);
+  background-repeat: no-repeat;
+  min-height: 66px;
+  padding-left: 75px;
+  padding-top: 22px;
+  margin-bottom: 0;
+  font-size: 1.333em;
+  font-weight: 500; }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+#medication-page {
+  border-top: 145px solid #7ECDC9; }
+  @media (max-width: 767px) {
+    #medication-page {
+      border-top: 40px solid #7ECDC9; } }
+  #medication-page #medication-details {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding: 50px;
+    background-color: #FFFFFF; }
+    #medication-page #medication-details .row {
+      text-align: left; }
+    #medication-page #medication-details #medication-back {
+      font-family: sourcesanspro;
+      font-weight: bold;
+      color: #2F3B75;
+      font-size: larger; }
+    #medication-page #medication-details #brand-name {
+      font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #2F3B75;
+      font-size: 2em; }
+    #medication-page #medication-details #save-to-cabinet {
+      font-family: robotoslab;
+      font-weight: bold;
+      height: 2.5em;
+      border-radius: 2.5em;
+      border: none;
+      background-color: #2F3B75;
+      padding-left: 2.5em;
+      padding-right: 2.5em; }
+      @media (max-width: 460px) {
+        #medication-page #medication-details #save-to-cabinet {
+          font-size: 75%; } }
+      #medication-page #medication-details #save-to-cabinet:focus {
+        outline: none; }
+    #medication-page #medication-details #medication-tabs {
+      background-color: #E6E7E8;
+      border: none; }
+      #medication-page #medication-details #medication-tabs li a {
+        font-family: robotoslab;
+        font-weight: bold;
+        color: #2F3B75;
+        padding: 20px; }
+      #medication-page #medication-details #medication-tabs .active {
+        background-color: #2F3B75; }
+        #medication-page #medication-details #medication-tabs .active a {
+          background-color: #2F3B75;
+          color: #FFFFFF;
+          border: none; }
+    #medication-page #medication-details #medication-tab-content {
+      background-color: #FFFFFF;
+      border: 2px solid #E6E7E8;
+      border-top: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 25px;
+      padding-bottom: 50px; }
+    #medication-page #medication-details #medication-tabs-accordion .panel {
+      border: none; }
+      #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        background-color: #E6E7E8; }
+        #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a, #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a:hover, #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a:active, #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a:visited, #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a:focus {
+          display: block;
+          color: #2F3B75 !important;
+          background: url(/Content/Images/minus.png) right center no-repeat;
+          background-size: 50px 50px;
+          height: 50px;
+          width: 100%;
+          line-height: 50px;
+          padding-right: 50px; }
+        #medication-page #medication-details #medication-tabs-accordion .panel .panel-heading a.collapsed {
+          display: block;
+          color: #2F3B75 !important;
+          background: url(/Content/Images/plus.png) right center no-repeat;
+          background-size: 50px 50px;
+          height: 50px;
+          width: 100%;
+          line-height: 50px;
+          padding-right: 50px; }
+      #medication-page #medication-details #medication-tabs-accordion .panel .panel-body {
+        padding-left: 0px;
+        padding-right: 0px; }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+#about-page .header h1 {
+  padding: 1em 0.5em 0.5em 0.5em; }
+#about-page .header img {
+  width: 100%;
+  max-width: 266px;
+  max-height: 266px; }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/robotoslab/robotoslab-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-regular-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-regular-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: robotoslab;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/robotoslab/robotoslab-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff2') format("woff2"), url('../fonts/robotoslab/robotoslab-bold-webfont.woff') format("woff"), url('../fonts/robotoslab/robotoslab-bold-webfont.ttf') format("truetype"), url('../fonts/robotoslab/robotoslab-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#robotoslab') format("svg"); }
+
+@font-face {
+  font-family: sourcesanspro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format("woff2"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format("woff"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.svg#robotoslab') format("svg"); }
+
+#cabinet-page {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  background-color: #E6E7E8; }
+  #cabinet-page .cabinet-header h1 {
+    padding: 1em 0.5em 0.5em 0.5em; }
+  #cabinet-page .cabinet-new-button-wrapper {
+    background-color: #FFFFFF;
+    margin-left: 0;
+    margin-right: 0;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 2em; }
+    @media (max-width: 767px) {
+      #cabinet-page .cabinet-new-button-wrapper {
+        padding: 10px 0 20px 0;
+        height: auto; } }
+    #cabinet-page .cabinet-new-button-wrapper button {
+      padding-top: 40px;
+      padding-right: 65px;
+      background-color: transparent;
+      color: #2F3B75;
+      font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      line-height: 40px; }
+      #cabinet-page .cabinet-new-button-wrapper button img {
+        height: 40px;
+        padding-right: 10px; }
+      #cabinet-page .cabinet-new-button-wrapper button:focus {
+        outline: none; }
+      @media (max-width: 767px) {
+        #cabinet-page .cabinet-new-button-wrapper button {
+          float: none;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          padding-right: 12px; } }
+  #cabinet-page .cabinet-list {
+    padding: 0 50px 50px 50px;
+    background-color: #FFFFFF;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left; }
+    @media (max-width: 767px) {
+      #cabinet-page .cabinet-list {
+        padding-top: 10px;
+        padding-left: 35px;
+        padding-right: 35px; } }
+    @media (max-width: 767px) {
+      #cabinet-page .cabinet-list #cabinet-contents {
+        display: none; }
+
+      #cabinet-page .cabinet-list .show-medication {
+        display: none; }
+
+      #cabinet-page .cabinet-list #cabinet-contents.show-medication {
+        display: block; }
+        #cabinet-page .cabinet-list #cabinet-contents.show-medication #close-cabinet {
+          display: block; }
+ }
+    #cabinet-page .cabinet-list #close-cabinet {
+      display: none; }
+    #cabinet-page .cabinet-list .cabinet-name {
+      display: inline-block;
+      color: #2F3B75;
+      font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      line-height: 80px; }
+    #cabinet-page .cabinet-list #cabinets .cabinet {
+      cursor: pointer;
+      border-bottom: 2px solid #7ECDC9;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-right: 0;
+      height: 106px; }
+      #cabinet-page .cabinet-list #cabinets .cabinet .cabinet-image-wrapper {
+        display: inline-block;
+        padding-right: 20px; }
+        #cabinet-page .cabinet-list #cabinets .cabinet .cabinet-image-wrapper img {
+          max-height: 80px; }
+      #cabinet-page .cabinet-list #cabinets .cabinet:last-child {
+        border-bottom: none; }
+    #cabinet-page .cabinet-list #cabinet-contents .cabinet-name {
+      height: 80px;
+      text-align: center;
+      font-size: 2em;
+      margin: 0.5em 0;
+      width: 100%; }
+    #cabinet-page .cabinet-list #cabinet-contents .medication {
+      padding: 20px 0 5px 0;
+      border-bottom: 2px solid #7ECDC9;
+      margin-right: 0;
+      height: 106px; }
+      @media (max-width: 767px) {
+        #cabinet-page .cabinet-list #cabinet-contents .medication:first-child {
+          padding-top: 20px;
+          border-top: 2px solid #7ECDC9; } }
+      @media (max-width: 767px) {
+        #cabinet-page .cabinet-list #cabinet-contents .medication div {
+          padding-left: 0;
+          padding-right: 0; } }
+      #cabinet-page .cabinet-list #cabinet-contents .medication .medication-name {
+        padding-bottom: 10px; }
+      #cabinet-page .cabinet-list #cabinet-contents .medication .remove-medication {
+        font-family: 'robotoslab', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        height: 1.5em;
+        border-radius: 1.5em;
+        background-color: #7ECDC9 !important;
+        color: #FFFFFF !important;
+        padding-left: 1em;
+        padding-right: 1em;
+        float: right; }
+      #cabinet-page .cabinet-list #cabinet-contents .medication img {
+        max-height: 60px; }
+
+#cabinet-dialog #cabinet-selector {
+  padding-top: 15px; }
+  #cabinet-dialog #cabinet-selector > div {
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 15px; }
+    #cabinet-dialog #cabinet-selector > div .cabinet-image-wrapper {
+      display: inline-block; }
+      #cabinet-dialog #cabinet-selector > div .cabinet-image-wrapper img {
+        height: 80px; }
+    #cabinet-dialog #cabinet-selector > div .cabinet-name {
+      padding-left: 15px;
+      display: inline-block; }
+#cabinet-dialog .new-cabinet {
+  text-align: left; }
+  #cabinet-dialog .new-cabinet > div {
+    line-height: 80px; }
+    #cabinet-dialog .new-cabinet > div img {
+      height: 80px; }
+    #cabinet-dialog .new-cabinet > div:first-child {
+      padding-left: 25px;
+      padding-right: 0;
+      width: auto;
+      display: inline-block; }
+    #cabinet-dialog .new-cabinet > div:last-child {
+      width: auto;
+      padding-left: 15px;
+      display: inline-block; }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 970px; }
+ }
+
+body {
+  font-family: 'sourcesanspro';
+  color: #0D0D0D;
+  text-align: center;
+  background: #FFFFFF; }
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  max-width: 100%; }
+  .body-content .tab-content {
+    background-color: #E6E7E8; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input, select, textarea {
+  max-width: 280px; }
+
+/*# sourceMappingURL=Site.css.map */
