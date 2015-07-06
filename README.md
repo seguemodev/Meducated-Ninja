@@ -1,7 +1,11 @@
 # Meducated-Ninja
 Visit the [Prototype](https://www.meducated.ninja)
 
-See [INSTALL.md](https://github.com/seguemodev/Meducated-Ninja/blob/master/INSTALL.md) for installation instructions
+See [INSTALL.md](INSTALL.md) for installation instructions
+
+See [Meducated Design Booklet](Supporting%20Documentation/Meducated%20Design%20Booklet.pdf) for a detailed walkthrough of our design process with design artifacts
+
+Prototype is released under [CC0 1.0 Universal](https://github.com/seguemodev/Meducated-Ninja/blob/master/LICENSE)
 
 Upon receipt of the RFP, the Executive Sponsor, met with potential team members internally to determine the appropriate Product Manager based on the requirements and subject matter. It was determined that the Product Manager with the best experience and passion for the project was Mike Behrmann. Mike assembled the team to help identify the types of information available via the FDA data source in an effort to select a target demographic that could benefit most from the data. After careful consideration and team member contributions, caregivers of the elderly and infirmed were chosen as our primary persona. Our product manager was then charged with providing the most value possible to our target group in the time allotted.
 
