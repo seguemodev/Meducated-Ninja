@@ -1,13 +1,15 @@
 # Meducated-Ninja
-Visit the [Prototype](https://www.meducated.ninja)
+Visit the [Running Prototype](https://www.meducated.ninja)
 
 See [INSTALL.md](INSTALL.md) for installation instructions
 
-See [Meducated Design Booklet](Supporting%20Documentation/Meducated%20Design%20Booklet.pdf) for a detailed walkthrough of our design process with design artifacts
+See [Meducated Design Booklet](Supporting%20Documentation/Meducated%20Design%20Booklet.pdf) for a detailed walkthrough of our design process
+
+See [Table of Contents](Supporting%20Documentation/Table%20of%20Contents.md) for a listing of our design artifacts
 
 Prototype is released under [CC0 1.0 Universal](https://github.com/seguemodev/Meducated-Ninja/blob/master/LICENSE)
 
-Upon receipt of the RFP, the Executive Sponsor, met with potential team members internally to determine the appropriate Product Manager based on the requirements and subject matter. It was determined that the Product Manager with the best experience and passion for the project was Mike Behrmann. Mike assembled the team to help identify the types of information available via the FDA data source in an effort to select a target demographic that could benefit most from the data. After careful consideration and team member contributions, caregivers of the elderly and infirmed were chosen as our primary persona. Our product manager was then charged with providing the most value possible to our target group in the time allotted.
+Upon receipt of the RFP, the Executive Sponsor met with potential team members internally to determine the appropriate Product Manager based on the requirements and subject matter. It was determined that the Product Manager with the best experience and passion for the project was Mike Behrmann. Mike assembled the team to help identify the types of information available via the FDA data source in an effort to select a target demographic that could benefit most from the data. After careful consideration and team member contributions, caregivers of the elderly and infirmed were chosen as our primary persona. Our product manager was then charged with providing the most value possible to our target group in the time allotted.
 
 Our Agile Coach, with confirmation from the team, determined that daily sprints would be the best course of action to stay on track with the limited time frame. We used Jira to: track our issues, prioritize our backlog, plan our sprints, conduct our tests, and view our agile board (to conduct our morning rituals and standups). We then used HipChat for project-related communication and collaboration as we find it to work much more efficiently than e-mail. 
 
@@ -17,5 +19,5 @@ The flow of the low fidelity wireframes was then transferred into full color pro
 
 After a working prototype was released, styling was applied and visual affordance testing was conducted to ensure the design was not only aesthetically pleasing but also had clear messaging and calls to action. The team also conducted some task flow exercises for input on ease of use and to better understand user expectations when using the app. The feedback from the User Acceptance sessions were incorporated into updated design documents and results were shared with the team for future iterations. 
 
-The development team used a variety of open source libraries to implement the web and native-mobile applications.  The Web app, built on Microsoft's .NET platform (previously proprietary, in the process of being released under an open source license) we used jQuery 2.1.3, Bootstrap 3.0, Autofac 3.5.2, and others.  The iOS app, while built on Apple's proprietary platform, used various open source modules from github including MBProgressHUD, UIImage, and Reachability.  The Android app used Retrofit, Picasso, EventBus, Timber, and many other open source libraries.  Both native mobile apps used Crashlytics for beta deployment and monitoring.  All three apps were built iteratively, based on user story prioritization in each sprint and using the design artifacts provided by our creative team.  As the design evolved, the UI implementation was updated to match the new designs.
+The development team used a variety of open source libraries to implement the web and native-mobile applications.  The Web app (built on Microsoft's .NET platform) used jQuery 2.1.3, Bootstrap 3.0, Autofac 3.5.2, and others.  The iOS app, while built on Apple's proprietary platform, used various open source modules from github including MBProgressHUD, UIImage, and Reachability.  The Android app used Retrofit, Picasso, EventBus, Timber, and many other open source libraries.  Both native mobile apps used Crashlytics for beta deployment and monitoring.  All three apps were built iteratively, based on user story prioritization in each sprint and using the design artifacts provided by our creative team.  As the design evolved, the UI implementation was updated to match the new designs.
 
